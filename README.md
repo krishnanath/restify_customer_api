@@ -6,6 +6,8 @@
 npm install restify restify-error mongoose mongoose-timestamp
 
 npm i -D nodemon
+
+npm i restify-jwt-community jsonwebtoken bcryptjs
 ```
 
 **Connect MLAB DB config.js**
@@ -17,6 +19,6 @@ module.exports ={
     URL: process.env.BASE_URL || 'http://localhost:3000',
 
     MONGODB_URI: process.env.MONGODB_URI ||
-    'mongodb://<dbuser>:<dbpassword>@ds157843.mlab.com:57843/customer_api'
+    'YOUR_OWN_MONGO_URI'
 }
 ```
