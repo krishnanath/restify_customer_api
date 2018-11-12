@@ -22,3 +22,11 @@ module.exports ={
     'YOUR_OWN_MONGO_URI'
 }
 ```
+
+# API Endpoints
+
+GET /customers
+GET /customers/:id
+POST (Protected) /customers
+PUT (Protected) /customers/:id
+DELETE (Protected) /customers/:id
